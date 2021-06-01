@@ -15,8 +15,6 @@ struct LoginView: View {
   var body: some View {
     NavigationView {
       VStack {
-        Spacer()
-        
         LoginHeaderView()
         
         VStack(alignment: .leading) {
@@ -27,9 +25,7 @@ struct LoginView: View {
             .textFieldStyle(RoundedBorderTextFieldStyle())
         }
         .padding()
-        
-        Spacer()
-        
+              
         NavigationLink(destination: ChatView(), tag: true, selection: $success) {
           EmptyView()
         }
@@ -38,6 +34,7 @@ struct LoginView: View {
           .buttonStyle(AuthenticationButtonStyle())
       }
     }
+    .edgesIgnoringSafeArea(.top)
   }
   
   private func login() {
