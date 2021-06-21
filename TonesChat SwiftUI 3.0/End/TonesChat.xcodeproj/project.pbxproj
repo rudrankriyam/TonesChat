@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A070164265F1FF7001F9C2F /* MusicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A070163265F1FF7001F9C2F /* MusicCardView.swift */; };
+		0A07016C265F2DD1001F9C2F /* SongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07016B265F2DD1001F9C2F /* SongsViewModel.swift */; };
+		0A07016E265F2EBD001F9C2F /* MusicGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07016D265F2EBD001F9C2F /* MusicGridView.swift */; };
+		0A070170265F2F2A001F9C2F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07016F265F2F2A001F9C2F /* ChatView.swift */; };
+		0A074EDF2660922200DDA919 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A074EDE2660922200DDA919 /* HomeView.swift */; };
+		0A107A5B26641F740065BDBF /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 0A107A5A26641F740065BDBF /* StreamChat */; };
+		0A107A5D26641F740065BDBF /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0A107A5C26641F740065BDBF /* StreamChatUI */; };
+		0A107A6126643CDC0065BDBF /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6026643CDB0065BDBF /* ChatBubbleShape.swift */; };
+		0A107A6426643D1B0065BDBF /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6326643D1B0065BDBF /* MessageView.swift */; };
+		0A107A6626643E150065BDBF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6526643E150065BDBF /* LoginView.swift */; };
+		0A107A6B26646E160065BDBF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6A26646E160065BDBF /* Color.swift */; };
+		0A107A6D26646EA30065BDBF /* TabViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6C26646EA30065BDBF /* TabViewItem.swift */; };
+		0A107A6F26652BFC0065BDBF /* SearchSongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A6E26652BFC0065BDBF /* SearchSongsViewModel.swift */; };
+		0A107A7126652C100065BDBF /* TopSongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A7026652C100065BDBF /* TopSongsViewModel.swift */; };
+		0A107A7326652C980065BDBF /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A7226652C980065BDBF /* LoginHeaderView.swift */; };
+		0A107A7526652CD50065BDBF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A7426652CD50065BDBF /* String.swift */; };
+		0A107A7726652CFB0065BDBF /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A107A7626652CFB0065BDBF /* Endpoint.swift */; };
+		0A4893E4265EB41100D69AF4 /* TonesChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4893E3265EB41100D69AF4 /* TonesChatApp.swift */; };
+		0A4893E6265EB41100D69AF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4893E5265EB41100D69AF4 /* ContentView.swift */; };
+		0A4893E8265EB41200D69AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4893E7265EB41200D69AF4 /* Assets.xcassets */; };
+		0A4893EB265EB41200D69AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4893EA265EB41200D69AF4 /* Preview Assets.xcassets */; };
+		0A4893F3265EC49B00D69AF4 /* AppleMusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4893F2265EC49B00D69AF4 /* AppleMusicManager.swift */; };
+		0A4893F5265EE90400D69AF4 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4893F4265EE90400D69AF4 /* SongModel.swift */; };
+		0AA27C50267A193400D8A6B0 /* ArtworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C4F267A193400D8A6B0 /* ArtworkImage.swift */; };
+		0AA27C54267A34B100D8A6B0 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C53267A34B100D8A6B0 /* URL.swift */; };
+		0AA27C57267A3A3500D8A6B0 /* MusicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C56267A3A3500D8A6B0 /* MusicRowView.swift */; };
+		0AC72E302664001F00675107 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC72E2F2664001F00675107 /* SearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A070163265F1FF7001F9C2F /* MusicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCardView.swift; sourceTree = "<group>"; };
+		0A07016B265F2DD1001F9C2F /* SongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewModel.swift; sourceTree = "<group>"; };
+		0A07016D265F2EBD001F9C2F /* MusicGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGridView.swift; sourceTree = "<group>"; };
+		0A07016F265F2F2A001F9C2F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		0A074EDE2660922200DDA919 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A107A6026643CDB0065BDBF /* ChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+		0A107A6326643D1B0065BDBF /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		0A107A6526643E150065BDBF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A107A6A26646E160065BDBF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0A107A6C26646EA30065BDBF /* TabViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewItem.swift; sourceTree = "<group>"; };
+		0A107A6E26652BFC0065BDBF /* SearchSongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSongsViewModel.swift; sourceTree = "<group>"; };
+		0A107A7026652C100065BDBF /* TopSongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongsViewModel.swift; sourceTree = "<group>"; };
+		0A107A7226652C980065BDBF /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		0A107A7426652CD50065BDBF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0A107A7626652CFB0065BDBF /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		0A4893E0265EB41100D69AF4 /* TonesChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonesChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4893E3265EB41100D69AF4 /* TonesChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonesChatApp.swift; sourceTree = "<group>"; };
+		0A4893E5265EB41100D69AF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A4893E7265EB41200D69AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4893EA265EB41200D69AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A4893EC265EB41200D69AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4893F2265EC49B00D69AF4 /* AppleMusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicManager.swift; sourceTree = "<group>"; };
+		0A4893F4265EE90400D69AF4 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		0AA27C4F267A193400D8A6B0 /* ArtworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkImage.swift; sourceTree = "<group>"; };
+		0AA27C53267A34B100D8A6B0 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		0AA27C56267A3A3500D8A6B0 /* MusicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRowView.swift; sourceTree = "<group>"; };
+		0AC72E2F2664001F00675107 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4893DD265EB41100D69AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A107A5D26641F740065BDBF /* StreamChatUI in Frameworks */,
+				0A107A5B26641F740065BDBF /* StreamChat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A070168265F2DAE001F9C2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A107A6226643CEC0065BDBF /* Helper Views */,
+				0A070163265F1FF7001F9C2F /* MusicCardView.swift */,
+				0A4893E5265EB41100D69AF4 /* ContentView.swift */,
+				0AC72E2F2664001F00675107 /* SearchView.swift */,
+				0A07016F265F2F2A001F9C2F /* ChatView.swift */,
+				0A107A6326643D1B0065BDBF /* MessageView.swift */,
+				0A107A6526643E150065BDBF /* LoginView.swift */,
+				0A107A7226652C980065BDBF /* LoginHeaderView.swift */,
+				0A074EDE2660922200DDA919 /* HomeView.swift */,
+				0A07016D265F2EBD001F9C2F /* MusicGridView.swift */,
+				0AA27C56267A3A3500D8A6B0 /* MusicRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A070169265F2DBE001F9C2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A4893F4265EE90400D69AF4 /* SongModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A07016A265F2DC8001F9C2F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0A07016B265F2DD1001F9C2F /* SongsViewModel.swift */,
+				0A107A6E26652BFC0065BDBF /* SearchSongsViewModel.swift */,
+				0A107A7026652C100065BDBF /* TopSongsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0A107A6226643CEC0065BDBF /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A107A6026643CDB0065BDBF /* ChatBubbleShape.swift */,
+				0A107A6C26646EA30065BDBF /* TabViewItem.swift */,
+				0AA27C4F267A193400D8A6B0 /* ArtworkImage.swift */,
+			);
+			path = "Helper Views";
+			sourceTree = "<group>";
+		};
+		0A107A6926646E0B0065BDBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A107A6A26646E160065BDBF /* Color.swift */,
+				0A107A7426652CD50065BDBF /* String.swift */,
+				0AA27C53267A34B100D8A6B0 /* URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A4893D7265EB41100D69AF4 = {
+			isa = PBXGroup;
+			children = (
+				0A4893E2265EB41100D69AF4 /* TonesChat */,
+				0A4893E1265EB41100D69AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4893E1265EB41100D69AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4893E0265EB41100D69AF4 /* TonesChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4893E2265EB41100D69AF4 /* TonesChat */ = {
+			isa = PBXGroup;
+			children = (
+				0AF5025D265FB3ED003F5D5D /* Apple Music */,
+				0A07016A265F2DC8001F9C2F /* ViewModels */,
+				0A070169265F2DBE001F9C2F /* Models */,
+				0A070168265F2DAE001F9C2F /* Views */,
+				0A107A6926646E0B0065BDBF /* Extensions */,
+				0A4893E3265EB41100D69AF4 /* TonesChatApp.swift */,
+				0A4893E7265EB41200D69AF4 /* Assets.xcassets */,
+				0A4893EC265EB41200D69AF4 /* Info.plist */,
+				0A4893E9265EB41200D69AF4 /* Preview Content */,
+			);
+			path = TonesChat;
+			sourceTree = "<group>";
+		};
+		0A4893E9265EB41200D69AF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A4893EA265EB41200D69AF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AF5025D265FB3ED003F5D5D /* Apple Music */ = {
+			isa = PBXGroup;
+			children = (
+				0A4893F2265EC49B00D69AF4 /* AppleMusicManager.swift */,
+				0A107A7626652CFB0065BDBF /* Endpoint.swift */,
+			);
+			path = "Apple Music";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4893DF265EB41100D69AF4 /* TonesChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4893EF265EB41200D69AF4 /* Build configuration list for PBXNativeTarget "TonesChat" */;
+			buildPhases = (
+				0A4893DC265EB41100D69AF4 /* Sources */,
+				0A4893DD265EB41100D69AF4 /* Frameworks */,
+				0A4893DE265EB41100D69AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TonesChat;
+			packageProductDependencies = (
+				0A107A5A26641F740065BDBF /* StreamChat */,
+				0A107A5C26641F740065BDBF /* StreamChatUI */,
+			);
+			productName = TonesChat;
+			productReference = 0A4893E0265EB41100D69AF4 /* TonesChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4893D8265EB41100D69AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0A4893DF265EB41100D69AF4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 0A4893DB265EB41100D69AF4 /* Build configuration list for PBXProject "TonesChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4893D7265EB41100D69AF4;
+			packageReferences = (
+				0A107A5926641F740065BDBF /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
+			productRefGroup = 0A4893E1265EB41100D69AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4893DF265EB41100D69AF4 /* TonesChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4893DE265EB41100D69AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4893EB265EB41200D69AF4 /* Preview Assets.xcassets in Resources */,
+				0A4893E8265EB41200D69AF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4893DC265EB41100D69AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A07016E265F2EBD001F9C2F /* MusicGridView.swift in Sources */,
+				0A107A7326652C980065BDBF /* LoginHeaderView.swift in Sources */,
+				0A107A6126643CDC0065BDBF /* ChatBubbleShape.swift in Sources */,
+				0A107A6F26652BFC0065BDBF /* SearchSongsViewModel.swift in Sources */,
+				0A4893E6265EB41100D69AF4 /* ContentView.swift in Sources */,
+				0A107A6626643E150065BDBF /* LoginView.swift in Sources */,
+				0A107A6B26646E160065BDBF /* Color.swift in Sources */,
+				0A4893E4265EB41100D69AF4 /* TonesChatApp.swift in Sources */,
+				0A4893F5265EE90400D69AF4 /* SongModel.swift in Sources */,
+				0AC72E302664001F00675107 /* SearchView.swift in Sources */,
+				0A070170265F2F2A001F9C2F /* ChatView.swift in Sources */,
+				0A070164265F1FF7001F9C2F /* MusicCardView.swift in Sources */,
+				0AA27C50267A193400D8A6B0 /* ArtworkImage.swift in Sources */,
+				0A4893F3265EC49B00D69AF4 /* AppleMusicManager.swift in Sources */,
+				0A107A7126652C100065BDBF /* TopSongsViewModel.swift in Sources */,
+				0A07016C265F2DD1001F9C2F /* SongsViewModel.swift in Sources */,
+				0AA27C57267A3A3500D8A6B0 /* MusicRowView.swift in Sources */,
+				0A107A6D26646EA30065BDBF /* TabViewItem.swift in Sources */,
+				0A107A7526652CD50065BDBF /* String.swift in Sources */,
+				0A107A6426643D1B0065BDBF /* MessageView.swift in Sources */,
+				0A107A7726652CFB0065BDBF /* Endpoint.swift in Sources */,
+				0A074EDF2660922200DDA919 /* HomeView.swift in Sources */,
+				0AA27C54267A34B100D8A6B0 /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A4893ED265EB41200D69AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A4893EE265EB41200D69AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4893F0265EB41200D69AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TonesChat/Preview Content\"";
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TonesChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.TonesChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4893F1265EB41200D69AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TonesChat/Preview Content\"";
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TonesChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.TonesChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4893DB265EB41100D69AF4 /* Build configuration list for PBXProject "TonesChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4893ED265EB41200D69AF4 /* Debug */,
+				0A4893EE265EB41200D69AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4893EF265EB41200D69AF4 /* Build configuration list for PBXNativeTarget "TonesChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4893F0265EB41200D69AF4 /* Debug */,
+				0A4893F1265EB41200D69AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A107A5926641F740065BDBF /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A107A5A26641F740065BDBF /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A107A5926641F740065BDBF /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		0A107A5C26641F740065BDBF /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A107A5926641F740065BDBF /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0A4893D8265EB41100D69AF4 /* Project object */;
+}
